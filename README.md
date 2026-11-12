@@ -49,15 +49,35 @@ control de división para cero, límite de 15 dígitos y control de resultados f
 ## 8. Estructura del proyecto
 
 PPE03_Cuasapaz_Pablo_Calculadora/
-├── Calculadora/
-│   ├── Form1.cs              # Lógica de la calculadora
-│   ├── Form1.Designer.cs     # Diseño de la interfaz (generado por Visual Studio)
-│   ├── Program.cs            # Punto de entrada de la aplicación
-│   └── Calculadora.csproj    # Archivo de configuración del proyecto
-├── imagenes/                 # Capturas de pantalla
-├── Calculadora.sln           # Solución de Visual Studio
-├── README.md                 # Documentación
-└── .gitignore                # Archivos excluidos (bin, obj, .vs)
+│
+├── Calculadora/                  # Carpeta principal del proyecto de C# Windows Forms
+
+│   ├── Properties/               # Contiene la configuración de propiedades y recursos del ensamblado
+
+│   ├── App.config                # Archivo de configuración de la aplicación .NET
+
+│   ├── Calculadora.csproj        # Archivo de proyecto de C# (contiene referencias, dependencias y rutas de compilación)
+
+│   ├── Form1.Designer.cs         # Código generado automáticamente por el diseñador visual para los controles de la interfaz
+
+│   ├── Form1.cs                  # Archivo de código lógica (Code-behind) donde se implementan los eventos y operaciones de la calculadora
+
+│   ├── Form1.resx                # Archivo de recursos XML asociado al formulario (iconos, textos localizados, etc.)
+
+│   └── Program.cs                # Punto de entrada principal donde se inicia la ejecución del hilo de la aplicación
+
+│
+├── imagenes/                     # Directorio para almacenar recursos gráficos y capturas de pantalla de la interfaz
+
+├── .gitattributes                # Archivos de configuración para normalizar saltos de línea en Git
+
+├── .gitignore                    # Especifica las carpetas y archivos temporales (como bin/ y obj/) que Git debe ignorar
+
+├── Calculadora.sln               # Archivo de solución de Visual Studio que agrupa y vincula los proyectos de la solución
+
+└── README.md                     # Documentación general del repositorio y guía de ejecución del proyecto
+
+
 
 ## 9. Capturas de pantalla
 Carpeta Imagenes
