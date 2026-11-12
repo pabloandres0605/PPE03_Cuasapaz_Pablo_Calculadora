@@ -109,5 +109,5 @@ Resultado esperado: Reinicia la pantalla a 0 y borra las variables
 Resultado: Correcto
 
 ## 11. Autor:
-Pablo Cuasapaz 
+Pablo Andrés Cuasapaz Armijos 
 
